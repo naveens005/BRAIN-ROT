@@ -1,167 +1,104 @@
-# 🔥 COOKED — The Brain Rot Entertainment Hub
+# 🛡️ FocusGuard — Attention Fragmentation Detection & Reversal
 
-> A chaotic, maximalist Gen Z entertainment hub built with **Vite + React + TypeScript + Tailwind CSS + Framer Motion**. 100% client-side with zero backend dependencies, ready for instant static deployment on GitHub Pages and installable as a Progressive Web App (PWA).
-
-```
-   ██████╗ ██████╗  ██████╗ ██╗  ██╗███████╗██████╗ 
-  ██╔════╝██╔═══██╗██╔═══██╗██║ ██╔╝██╔════╝██╔══██╗
-  ██║     ██║   ██║██║   ██║█████╔╝ █████╗  ██║  ██║
-  ██║     ██║   ██║██║   ██║██╔═██╗ ██╔══╝  ██║  ██║
-  ╚██████╗╚██████╔╝╚██████╔╝██║  ██╗███████╗██████╔╝
-   ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ 
-            🔥 MAXIMUM BRAIN ROT EDITION 🔥
-```
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)](./LICENSE)
-[![Vite](https://img.shields.io/badge/Vite-8.x-purple.svg)](https://vite.dev)
-[![React](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
-[![PWA Ready](https://img.shields.io/badge/PWA-Installable-green.svg)](./public/manifest.webmanifest)
-[![Deploy](https://img.shields.io/badge/GitHub%20Pages-Automated-success.svg)](https://github.com)
-
----
-
-## 🌐 Live Demo
-🔗 **[Launch COOKED Live Demo](https://naveens005.github.io/BRAIN-ROT/)** *(Deployed to GitHub Pages with 1-click CI/CD)*
-
-
----
-
-## 📸 Screenshots & Visual Walkthrough
+> A scientific, privacy-first system to help students and knowledge workers detect early patterns of attention fragmentation caused by short-form digital overconsumption and systematically reverse them.
 
 ```
-+------------------------------------------------------------------------+
-|  COOKED 🔥 v2.0 ROT             🔥 3d Streak   [🗿 Sigma • 1200 XP] 🔇 ⚙️|
-+------------------------------------------------------------------------+
-| [🌐 Translator] [📱 Doomscroll] [❓ Quiz] [🔊 Soundboard] [🖼️ Meme] [🗿 Profile]
-+------------------------------------------------------------------------+
-|                                                                        |
-|                 OFFLINE LOCAL ENGINE & AI TRANSLATOR                   |
-|                   BRAIN ROT TRANSLATOR                                 |
-|                                                                        |
-|    +-----------------------------+   +-------------------------------+ |
-|    | Normal English Input        |   | Cooked Output                 | |
-|    | "I am very tired and failed |   | "Bro really thought: i am     | |
-|    |  my exam today"             |   |  completely cooked fr fr 💀"  | |
-|    |                             |   |                               | |
-|    | [⚡ COOK THIS TEXT]         |   | [🔊 Speak] [📋 Copy]         | |
-|    +-----------------------------+   +-------------------------------+ |
-+------------------------------------------------------------------------+
+   ███████╗ ██████╗  ██████╗██╗   ██╗███████╗ ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗ 
+   ██╔════╝██╔═══██╗██╔════╝██║   ██║██╔════╝██╔════╝ ██║   ██║██╔══██╗██╔══██╗██╔══██╗
+   █████╗  ██║   ██║██║     ██║   ██║███████╗██║  ███╗██║   ██║███████║██████╔╝██║  ██║
+   ██╔══╝  ██║   ██║██║     ██║   ██║╚════██║██║   ██║██║   ██║██╔══██║██╔══██╗██║  ██║
+   ██║     ╚██████╔╝╚██████╗╚██████╔╝███████║╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+   ╚═╝      ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
+                      Cognitive Science & Habit Analytics Platform
+```
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![Scoring Tests](https://img.shields.io/badge/Scoring%20Tests-100%25%20Passing-emerald.svg)](./packages/scoring/test/scoring.test.ts)
+[![Compliance: DPDP Act 2023](https://img.shields.io/badge/Compliance-DPDP%20Act%202023-purple.svg)](./docs/THREAT_MODEL.md)
+[![Localization](https://img.shields.io/badge/i18n-English%20%7C%20%E0%AE%A4%E0%AE%AE%E0%AE%BF%E0%AE%B4%E0%AF%8D-cyan.svg)](./apps/mobile/src/i18n)
+
+---
+
+## 🔬 Core Mission & Guardrails
+
+FocusGuard is built upon three empirical sources of truth:
+1. **Passive Telemetry:** Android `UsageStatsManager` / `UsageEvents` measuring total screen exposure, short-form video minutes, task-switching frequency (app switches/hr), and late-night pickups (00:00–05:00).
+2. **Active Cognitive Tasks:** Six mobile-optimized tasks measuring Sustained Attention, Reaction Time Consistency, Cognitive Error Rates, Impulse Inhibition, Mental Fatigue Slopes, and Focus Session Completion.
+3. **Subjective Reflection:** Weekly 60-second check-in combining standardized Cognitive Failures Questionnaire (CFQ) items with an empirical Reading-Focus distraction latency timer.
+
+### Hard Ethical Guardrails
+- **Self-Awareness, Not Diagnosis:** "Brain rot" is an informal cultural term, not a clinical disorder. FocusGuard never diagnoses ADHD or claims "% cognitive decline". Disclaimers are displayed prominently.
+- **Personal 14-Day Baseline ($Z$-Scores via Median/MAD):** Scores are computed relative to the user's personal rolling baseline. The app displays `"Calibrating (Day X/14)"` until a 14-day history is formed.
+- **100% Explainable:** Every risk calculation reveals the top 3 contributing factors with real raw units.
+- **Local-First Privacy:** All raw sensor data and cognitive reaction times remain in encrypted local SQLite (`SQLCipher` / AES-256). Zero third-party tracking or ad SDKs.
+
+---
+
+## 📂 Monorepo Structure
+
+```
+focusguard/
+├── apps/
+│   ├── mobile/         # React Native + Custom Kotlin Android Modules (UsageStats, Notifications, WorkManager)
+│   └── web/            # Read-only Companion Dashboard (React + Vite + Tailwind)
+├── packages/
+│   └── scoring/        # Isomorphic TypeScript Scoring Engine (Median, MAD, Winsorization, 14-day rolling baseline)
+├── services/
+│   └── api/            # Optional FastAPI + PostgreSQL backend (Zero-knowledge E2EE sync, DPDP account erasure)
+└── docs/               # Scientific Validation Protocol, Permissions Rationale, Threat Model
 ```
 
 ---
 
-## ⚡ Core Features
+## 🧠 The Six Validated Cognitive Tasks
 
-### 1. 🌐 Brain Rot Translator & Slang Engine
-- **180+ Local Offline Slang Entries**: Fast, zero-latency dictionary lookup without external API dependencies.
-- **3-Tier Intensity Control**:
-  - `🌱 Mild`: Light sprinkling of conversational slang (`fr fr`, `no cap`, `lowkey`).
-  - `🍳 Cooked`: Aggressive TikTok comment vocabulary (`bro really thought`, `caught in 4K`, `L + ratio`).
-  - `💀 Terminally Online`: Full sensory overload with chaotic emojis, phonetic distortions, and inner-monologue screams.
-- **Reverse Mode**: Paste cursed internet slang to get plain English explanations, complete with origin context and brain toxicity severity score.
-- **Optional AI Mode**: Paste your own Gemini or OpenAI API key in Settings to unlock the *"Rot this paragraph"* feature with 4 comedic personas (TikTok Commenter, Alpha Podcast Bro, Discord Mod, Roblox iPad Kid). Falls back silently to the local rule engine if no key is provided.
-
-### 2. 📱 Infinite Doomscroll & Rot Meter
-- Infinite procedural feed with fake viral creators (`@skibidi_kai_99`, `@dunne_glazer`, `@ohio_border_patrol`), absurd comment threads, and live counters.
-- **Rot Meter (0-100%)**: Escalates visual insanity the more you scroll:
-  - `0 - 25%`: Casual viewing.
-  - `25 - 50%`: Chromatic aberration and subtle glitch effects.
-  - `50 - 75%`: Sticky corner Attention-Retainer simulator (Subway Surfers / Minecraft parkour simulator widget).
-  - `75 - 100%`: Terminal chaos with screen shake, animated alerts, and milestone XP rewards.
-
-### 3. ❓ "How Cooked Are You?" Quiz & Canvas PNG Export
-- 12 hilarious situational questions measuring screen time, aura loss, fanum tax reactions, and lawn-grass avoidance.
-- Result tiers ranging from `🌱 Untouched NPC Normie` to `🔥 Terminally Online Final Boss`.
-- **High-DPI Canvas Card Generator**: Renders an official certificate of brain rot with diagnosis, emergency prescription, rubber stamp, and one-click PNG download.
-
-### 4. 🔊 16+ Web Audio API Synthesized Soundboard
-- 100% client-synthesized audio using Web Audio API oscillators, biquad filters, and noise envelopes. Zero copyrighted external MP3 files.
-- Sounds: *Vine Boom, Bruh Bass, Airhorn Blip, Metal Pipe, Rizz Chord, Lazer Pew, Cartoon Slip, Sub Drop 808, Skull Error, Dialup Glitch, Wooden Bonk, Sigma Warp, Sad Wah-Wah, Skibidi Bop, Mewing Hush, Critical Win*.
-- Global keyboard hotkeys (`1-8`, `Q-I`) with reactive visual pads.
-- Global Mute toggle and volume slider.
-
-### 5. 🖼️ Brain Rot Meme Maker
-- Canvas-powered meme builder with 5 built-in vector/canvas templates (*Let Him Cook, GigaChad Jawline, Brain Melting In Ohio, Skibidi Ascendant, Doge Shock*) + custom photo upload support via FileReader.
-- Custom Impact meme typography, outline rendering, draggable/stampable stickers, and PNG export.
-- AI Caption Assistant for viral top/bottom text generation.
-
-### 6. 🗿 Profile, XP, Streaks & Ranks
-- LocalStorage persistence tracking XP, daily active streaks, and game stats.
-- Rank progression: `NPC Civilian` ➔ `Skibidi Recruit` ➔ `Mewing Master` ➔ `Rizz God` ➔ `Certified Sigma` ➔ `TERMINAL FINAL BOSS`.
-- 15 unlockable achievements with real-time trophy notifications and confetti bursts.
-
-### 7. 🕹️ Easter Eggs
-- **Konami Code**: Enter `↑ ↑ ↓ ↓ ← → ← → B A` anywhere to trigger Golden GigaChad mode and claim +200 XP.
-- **7-Tap Glitch Logo**: Rapidly tap the COOKED logo 7 times to trigger the fake *"Your Brain Has Been Deleted"* crash screen with an interactive prefrontal cortex reboot mini-game.
+| Test | Paradigm | Metric Measured |
+|---|---|---|
+| **1. Continuous Performance Task (CPT)** | Rapid shape stream target detection | Hit Rate, Lapses, $d'$ Sensitivity |
+| **2. Psychomotor Vigilance Task (PVT)** | Random ISI millisecond counter reaction | Mean RT, Reaction Time CV, Lapses $>500$ ms |
+| **3. Stroop & 2-Back Interference** | Color-word semantic conflict | Interference Error Rate, Inhibition Cost |
+| **4. Go / No-Go & Delay Discounting** | Pre-potent motor inhibition + choice delay | Commission Errors on No-Go, Discount Rate $k$ |
+| **5. Vigilance Decrement** | Line orientation discrimination across blocks | Slope of reaction time decline over time-on-task |
+| **6. In-App Focus Session** | Dedicated countdown timer | Uninterrupted duration, Task Completion Rate |
 
 ---
 
-## 🎨 Aesthetics & Accessibility
-
-- **Maximalist Gen Z Cyber Aesthetic**: Neon purple (`#a855f7`), toxic green (`#22c55e`), hot magenta (`#ec4899`), cyber cyan (`#06b6d4`), and neo-brutalist sticker styling with tilted badges.
-- **Dark Mode Default**: Deep dark backgrounds (`#09090b`) guaranteeing high contrast and readability.
-- **Accessibility & Motion Comfort**:
-  - Full `prefers-reduced-motion` integration disabling screen shakes, rapid glitching, and ambient floating emojis.
-  - Global mute button immediately silencing the audio engine.
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**: React 19 + TypeScript
-- **Bundler & Tooling**: Vite 8
-- **Styling**: Tailwind CSS v4 (`@tailwindcss/vite`) + Neo-brutalist design tokens
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Celebration Effects**: Canvas Confetti
-- **Audio Engine**: Web Audio API (native browser synthesis)
-- **Deployment**: GitHub Pages via GitHub Actions (`base: './'`)
-- **PWA**: Web App Manifest + Service Worker
-
----
-
-## 🚀 Local Development Setup
+## 🛠️ Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher recommended)
-- npm (v9 or higher)
+- Node.js (v18+)
+- npm (v9+)
+- Python 3.10+ (for optional FastAPI backend)
 
-### Installation
+### Build & Run Tests
 ```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/cooked.git
-cd cooked
-
-# 2. Install dependencies
+# 1. Install dependencies in scoring package
+cd packages/scoring
 npm install
+npm test            # Runs 11 Vitest unit & simulation tests (100% pass)
+npm run build       # Compiles TypeScript declarations
 
-# 3. Start the Vite local development server
-npm run dev
-```
-
-Open your browser at `http://localhost:5173`.
-
-### Production Build
-```bash
-# Build static bundle for GitHub Pages / static hosting
-npm run build
-
-# Preview production build locally
-npm run preview
+# 2. Build Web Companion Dashboard
+cd ../../apps/web
+npm install
+npm run build       # Compiles static production bundle
+npm run dev         # Starts local development server on http://localhost:5173
 ```
 
 ---
 
-## 🔒 Privacy & API Key Security
+## 🌐 Localization (English & தமிழ்)
 
-All optional AI features allow the user to provide their own Gemini or OpenAI API key.
-- Keys are saved **exclusively in the client's `localStorage`**.
-- Keys are **never committed, never hardcoded, and never proxied through any server**.
-- If no key is set, the application continues to run seamlessly using the local heuristic dictionary and template engines.
+FocusGuard supports complete localization from day one:
+- **English (`en`)**
+- **Tamil (`ta` / தமிழ்)**
+
+Language preference can be toggled instantly from the dashboard header or user settings.
 
 ---
 
-## 📜 License
+## 📜 Regulatory Compliance & License
 
-This project is licensed under the [MIT License](./LICENSE). Feel free to fork, customize, and brain rot responsibly.
+- **India's DPDP Act 2023**: Granular consent, purpose limitation, zero-knowledge sync, and 1-click complete data erasure.
+- **GDPR**: Privacy by design, Article 15 Data Portability (JSON export), Article 17 Right to Erasure.
+- **License**: [MIT License](./LICENSE)

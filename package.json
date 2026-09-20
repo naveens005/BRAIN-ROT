@@ -1,31 +1,29 @@
 {
-  "name": "brain-rot",
+  "name": "focusguard-monorepo",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "FocusGuard — Production-grade attention fragmentation detection and habit reversal system",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "build:scoring": "npm --workspace=@focusguard/scoring run build",
+    "test:scoring": "npm --workspace=@focusguard/scoring run test",
+    "build:web": "npm --workspace=@focusguard/web run build",
+    "dev:web": "npm --workspace=@focusguard/web run dev",
+    "test": "npm run test:scoring",
+    "build": "npm run build:scoring && npm run build:web"
   },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "@types/canvas-confetti": "^1.9.0",
-    "canvas-confetti": "^1.9.4",
-    "framer-motion": "^13.4.0",
-    "lucide-react": "^1.47.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "tailwindcss": "^4.3.3"
-  },
-  "devDependencies": {
-    "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
-    "oxlint": "^1.81.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.3.0"
-  }
+  "keywords": [
+    "attention",
+    "cognitive-science",
+    "focusguard",
+    "pvt",
+    "cpt",
+    "digital-wellbeing",
+    "brainrot-detection"
+  ],
+  "author": "FocusGuard Engineering Team",
+  "license": "MIT"
 }

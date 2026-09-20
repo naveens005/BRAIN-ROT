@@ -1,0 +1,47 @@
+{
+  "app_name": "FocusGuard",
+  "disclaimer_banner": "A personal self-awareness & habit tool. Not a medical or clinical diagnosis.",
+  "dashboard_title": "Attention & Habit Dashboard",
+  "rot_risk_index": "Rot Risk Index",
+  "calibrating_title": "Calibrating Personal Baseline",
+  "calibrating_desc": "Gathering baseline data (Day {{day}} of 14). During calibration, FocusGuard learns your unique routine without generating speculative population scores.",
+  "confidence_label": "Confidence",
+  "risk_bands": {
+    "calibrating": "Calibrating",
+    "low": "Low Risk",
+    "moderate": "Moderate Risk",
+    "elevated": "Elevated Risk",
+    "high": "High Risk"
+  },
+  "why_this_score": "Why This Score (Top Contributing Factors)",
+  "screen_metrics_title": "Today's Digital Consumption",
+  "total_screen_time": "Total Screen Time",
+  "short_form_video": "Short-Form Video",
+  "app_switches": "App Switches / Hour",
+  "late_night_screen": "Late-Night Usage (00:00-05:00)",
+  "six_pillars_radar": "Cognitive Stability (6 Pillars)",
+  "pillars": {
+    "sustained_attention": "Sustained Attention",
+    "reaction_consistency": "Reaction Consistency",
+    "cognitive_accuracy": "Cognitive Accuracy",
+    "impulse_control": "Impulse Control",
+    "fatigue_resilience": "Mental Fatigue Resilience",
+    "task_completion": "Task Completion",
+    "passive_habits": "Passive Digital Habits"
+  },
+  "interventions_title": "Recommended Habit Reversal",
+  "interventions": {
+    "scheduled_breaks": "Scheduled Breathing Breaks",
+    "digital_free_zones": "Digital-Free Zones",
+    "curated_content": "Active Learning Swaps",
+    "brain_boosting": "Brain-Boosting Activities"
+  },
+  "safety_support_title": "Gentle Support",
+  "safety_support_body": "If you are experiencing ongoing distress, exhaustion, or sleep deprivation, please consider talking with a counsellor or healthcare professional. You are not alone.",
+  "buttons": {
+    "start_assessment": "Start Cognitive Assessment",
+    "export_data": "Export My Data (JSON)",
+    "delete_all_data": "Erase All Data (GDPR / DPDP)",
+    "take_break": "Take a 5-min Pause"
+  }
+}

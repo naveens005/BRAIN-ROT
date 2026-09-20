@@ -1,0 +1,27 @@
+{
+  "name": "@focusguard/scoring",
+  "version": "1.0.0",
+  "description": "Pure TypeScript cognitive scoring and robust baseline normalization engine for FocusGuard",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "cognitive-science",
+    "attention",
+    "pvt",
+    "cpt",
+    "z-score",
+    "mad"
+  ],
+  "author": "FocusGuard Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "typescript": "~6.0.2",
+    "vitest": "^3.2.7"
+  }
+}
